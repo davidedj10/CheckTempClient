@@ -23,9 +23,11 @@
     
     IBOutlet NSTextField *deviceIPaddr;
     
+    IBOutlet NSButton *exportToCsv;
+    
 }
 
-
+-(IBAction)SelectDirectoryLog:(id)sender;
 -(IBAction)FrequencyUpdate:(id)sender;
 -(IBAction)StartLogging:(id)sender;
 

@@ -10,8 +10,9 @@
 
 
 NSTimer *t;
-int presses = 0, FrequencyValueSlider = 0;
-NSString *ipForConnection;
+int presses = 0, FrequencyValueSlider = 2;
+NSString *ipForConnection, *correctedPath;
+
 
 @interface AppDelegate ()
 
@@ -62,6 +63,21 @@ NSString *ipForConnection;
     presses++;
 }
 
+-(IBAction)SelectDirectoryLog:(id)sender{
+    
+    
+    NSSavePanel *panel = [NSSavePanel savePanel];
+    [panel setNameFieldStringValue:@"CheckTempLog.csv"];
+    [panel beginWithCompletionHandler:^(NSInteger result) {
+        
+        if (result == NSFileHandlingPanelOKButton) {
+            NSFileManager *manager = [NSFileManager defaultManager];
+            NSURL *SavingDirectory = [panel URL];
+            correctedPath = [[SavingDirectory absoluteString] substringFromIndex:7];
+        }
+    }];
+    
+}
 
 -(void)onTick:(NSTimer *)timer {
     
@@ -75,12 +91,41 @@ NSString *ipForConnection;
     
     //Updating the value of the datasets
     
-    [TemperatureData setStringValue:[dataArray objectAtIndex:0]];
-    [CoreVoltageData setStringValue:[dataArray objectAtIndex:1]];
-    [CoreClockData setStringValue:[dataArray objectAtIndex:2]];
-    [SystemLoadData setStringValue:[dataArray objectAtIndex:3]];
+    //parsing raw data to corrected values
     
-    NSLog(@"Data : %i",FrequencyValueSlider);
+    int clkValue = [[dataArray objectAtIndex:2] intValue];
+    NSString *clkCorrectedValuetoDisplay = [NSString stringWithFormat: @"%i", clkValue/1000000]; //hz to mhz
+    float tempValue = [[dataArray objectAtIndex:0] floatValue];
+    NSString *tempCorrectedValue = [[NSString stringWithFormat:@"%f", tempValue/1000]substringToIndex:5];
+    
+    [TemperatureData setStringValue:tempCorrectedValue];
+    [CoreVoltageData setStringValue:[dataArray objectAtIndex:1]];
+    [CoreClockData setStringValue:clkCorrectedValuetoDisplay];
+    [SystemLoadData setStringValue:[dataArray objectAtIndex:3]];
+
+    if([exportToCsv state] == 1){
+    NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
+    [DateFormatter setDateFormat:@"hh:mm:ss"];
+    
+    NSString *content = [NSString stringWithFormat:@"%@, %@, %@, %@, %@\n",[DateFormatter stringFromDate:[NSDate date]], tempCorrectedValue, [dataArray objectAtIndex:1], clkCorrectedValuetoDisplay, [dataArray objectAtIndex:3]];
+    
+    NSFileHandle *fileHandle = [NSFileHandle fileHandleForWritingAtPath:correctedPath];
+    if (fileHandle){
+        [fileHandle seekToEndOfFile];
+        [fileHandle writeData:[content dataUsingEncoding:NSUTF8StringEncoding]];
+        [fileHandle closeFile];
+    }
+    else{
+        [content writeToFile:correctedPath
+                  atomically:NO
+                    encoding:NSStringEncodingConversionAllowLossy
+                       error:nil];
+    }
+    }else{
+        
+        //do nothing
+    }
+   // NSLog(@"Data : %@",correctedPath);
 
 }
 

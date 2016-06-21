@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "825793EF9962A5590E8133A655ACB94285AFD1C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "825793EF9962A5590E8133A655ACB94285AFD1C7" : 0,
+    "97CEEE909652A456B4AFF8DB9BAAADE12E51FA65" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02D43D84-D6F1-48CD-BC5C-CE57BABF85A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "825793EF9962A5590E8133A655ACB94285AFD1C7" : "CheckTempClient\/",
+    "97CEEE909652A456B4AFF8DB9BAAADE12E51FA65" : "checktemp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CheckTempClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CheckTempClient.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davidedj10\/CheckTempClient.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "825793EF9962A5590E8133A655ACB94285AFD1C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davidedj10\/checktemp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97CEEE909652A456B4AFF8DB9BAAADE12E51FA65"
+    }
+  ]
+}
