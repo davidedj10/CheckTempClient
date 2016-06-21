@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E186A0381D1977A000A1B0C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E186A0371D1977A000A1B0C0 /* AppDelegate.m */; };
+		E186A03B1D1977A000A1B0C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E186A03A1D1977A000A1B0C0 /* main.m */; };
+		E186A03D1D1977A000A1B0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E186A03C1D1977A000A1B0C0 /* Assets.xcassets */; };
+		E186A0401D1977A100A1B0C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E186A03E1D1977A100A1B0C0 /* MainMenu.xib */; };
+		E186A04B1D1977A100A1B0C0 /* CheckTempClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E186A04A1D1977A100A1B0C0 /* CheckTempClientTests.m */; };
+		E186A0561D1977A100A1B0C0 /* CheckTempClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E186A0551D1977A100A1B0C0 /* CheckTempClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E186A0471D1977A100A1B0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E186A02B1D1977A000A1B0C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E186A0321D1977A000A1B0C0;
+			remoteInfo = CheckTempClient;
+		};
+		E186A0521D1977A100A1B0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E186A02B1D1977A000A1B0C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E186A0321D1977A000A1B0C0;
+			remoteInfo = CheckTempClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E186A0331D1977A000A1B0C0 /* CheckTempClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckTempClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E186A0361D1977A000A1B0C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E186A0371D1977A000A1B0C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E186A03A1D1977A000A1B0C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E186A03C1D1977A000A1B0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E186A03F1D1977A100A1B0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E186A0411D1977A100A1B0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E186A0461D1977A100A1B0C0 /* CheckTempClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckTempClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E186A04A1D1977A100A1B0C0 /* CheckTempClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTempClientTests.m; sourceTree = "<group>"; };
+		E186A04C1D1977A100A1B0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E186A0511D1977A100A1B0C0 /* CheckTempClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckTempClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E186A0551D1977A100A1B0C0 /* CheckTempClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTempClientUITests.m; sourceTree = "<group>"; };
+		E186A0571D1977A100A1B0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E186A0301D1977A000A1B0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A0431D1977A100A1B0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A04E1D1977A100A1B0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E186A02A1D1977A000A1B0C0 = {
+			isa = PBXGroup;
+			children = (
+				E186A0351D1977A000A1B0C0 /* CheckTempClient */,
+				E186A0491D1977A100A1B0C0 /* CheckTempClientTests */,
+				E186A0541D1977A100A1B0C0 /* CheckTempClientUITests */,
+				E186A0341D1977A000A1B0C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E186A0341D1977A000A1B0C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E186A0331D1977A000A1B0C0 /* CheckTempClient.app */,
+				E186A0461D1977A100A1B0C0 /* CheckTempClientTests.xctest */,
+				E186A0511D1977A100A1B0C0 /* CheckTempClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E186A0351D1977A000A1B0C0 /* CheckTempClient */ = {
+			isa = PBXGroup;
+			children = (
+				E186A0361D1977A000A1B0C0 /* AppDelegate.h */,
+				E186A0371D1977A000A1B0C0 /* AppDelegate.m */,
+				E186A03C1D1977A000A1B0C0 /* Assets.xcassets */,
+				E186A03E1D1977A100A1B0C0 /* MainMenu.xib */,
+				E186A0411D1977A100A1B0C0 /* Info.plist */,
+				E186A0391D1977A000A1B0C0 /* Supporting Files */,
+			);
+			path = CheckTempClient;
+			sourceTree = "<group>";
+		};
+		E186A0391D1977A000A1B0C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E186A03A1D1977A000A1B0C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E186A0491D1977A100A1B0C0 /* CheckTempClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				E186A04A1D1977A100A1B0C0 /* CheckTempClientTests.m */,
+				E186A04C1D1977A100A1B0C0 /* Info.plist */,
+			);
+			path = CheckTempClientTests;
+			sourceTree = "<group>";
+		};
+		E186A0541D1977A100A1B0C0 /* CheckTempClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E186A0551D1977A100A1B0C0 /* CheckTempClientUITests.m */,
+				E186A0571D1977A100A1B0C0 /* Info.plist */,
+			);
+			path = CheckTempClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E186A0321D1977A000A1B0C0 /* CheckTempClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E186A05A1D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClient" */;
+			buildPhases = (
+				E186A02F1D1977A000A1B0C0 /* Sources */,
+				E186A0301D1977A000A1B0C0 /* Frameworks */,
+				E186A0311D1977A000A1B0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckTempClient;
+			productName = CheckTempClient;
+			productReference = E186A0331D1977A000A1B0C0 /* CheckTempClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E186A0451D1977A100A1B0C0 /* CheckTempClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E186A05D1D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClientTests" */;
+			buildPhases = (
+				E186A0421D1977A100A1B0C0 /* Sources */,
+				E186A0431D1977A100A1B0C0 /* Frameworks */,
+				E186A0441D1977A100A1B0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E186A0481D1977A100A1B0C0 /* PBXTargetDependency */,
+			);
+			name = CheckTempClientTests;
+			productName = CheckTempClientTests;
+			productReference = E186A0461D1977A100A1B0C0 /* CheckTempClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E186A0501D1977A100A1B0C0 /* CheckTempClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E186A0601D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClientUITests" */;
+			buildPhases = (
+				E186A04D1D1977A100A1B0C0 /* Sources */,
+				E186A04E1D1977A100A1B0C0 /* Frameworks */,
+				E186A04F1D1977A100A1B0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E186A0531D1977A100A1B0C0 /* PBXTargetDependency */,
+			);
+			name = CheckTempClientUITests;
+			productName = CheckTempClientUITests;
+			productReference = E186A0511D1977A100A1B0C0 /* CheckTempClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E186A02B1D1977A000A1B0C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Davide Fresilli";
+				TargetAttributes = {
+					E186A0321D1977A000A1B0C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E186A0451D1977A100A1B0C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E186A0321D1977A000A1B0C0;
+					};
+					E186A0501D1977A100A1B0C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E186A0321D1977A000A1B0C0;
+					};
+				};
+			};
+			buildConfigurationList = E186A02E1D1977A000A1B0C0 /* Build configuration list for PBXProject "CheckTempClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E186A02A1D1977A000A1B0C0;
+			productRefGroup = E186A0341D1977A000A1B0C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E186A0321D1977A000A1B0C0 /* CheckTempClient */,
+				E186A0451D1977A100A1B0C0 /* CheckTempClientTests */,
+				E186A0501D1977A100A1B0C0 /* CheckTempClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E186A0311D1977A000A1B0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E186A03D1D1977A000A1B0C0 /* Assets.xcassets in Resources */,
+				E186A0401D1977A100A1B0C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A0441D1977A100A1B0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A04F1D1977A100A1B0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E186A02F1D1977A000A1B0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E186A03B1D1977A000A1B0C0 /* main.m in Sources */,
+				E186A0381D1977A000A1B0C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A0421D1977A100A1B0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E186A04B1D1977A100A1B0C0 /* CheckTempClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E186A04D1D1977A100A1B0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E186A0561D1977A100A1B0C0 /* CheckTempClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E186A0481D1977A100A1B0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E186A0321D1977A000A1B0C0 /* CheckTempClient */;
+			targetProxy = E186A0471D1977A100A1B0C0 /* PBXContainerItemProxy */;
+		};
+		E186A0531D1977A100A1B0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E186A0321D1977A000A1B0C0 /* CheckTempClient */;
+			targetProxy = E186A0521D1977A100A1B0C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E186A03E1D1977A100A1B0C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E186A03F1D1977A100A1B0C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E186A0581D1977A100A1B0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E186A0591D1977A100A1B0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E186A05B1D1977A100A1B0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E186A05C1D1977A100A1B0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E186A05E1D1977A100A1B0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckTempClient.app/Contents/MacOS/CheckTempClient";
+			};
+			name = Debug;
+		};
+		E186A05F1D1977A100A1B0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckTempClient.app/Contents/MacOS/CheckTempClient";
+			};
+			name = Release;
+		};
+		E186A0611D1977A100A1B0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckTempClient;
+			};
+			name = Debug;
+		};
+		E186A0621D1977A100A1B0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckTempClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidedj10.CheckTempClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckTempClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E186A02E1D1977A000A1B0C0 /* Build configuration list for PBXProject "CheckTempClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E186A0581D1977A100A1B0C0 /* Debug */,
+				E186A0591D1977A100A1B0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E186A05A1D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E186A05B1D1977A100A1B0C0 /* Debug */,
+				E186A05C1D1977A100A1B0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E186A05D1D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E186A05E1D1977A100A1B0C0 /* Debug */,
+				E186A05F1D1977A100A1B0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E186A0601D1977A100A1B0C0 /* Build configuration list for PBXNativeTarget "CheckTempClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E186A0611D1977A100A1B0C0 /* Debug */,
+				E186A0621D1977A100A1B0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E186A02B1D1977A000A1B0C0 /* Project object */;
+}
